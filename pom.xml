@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.lucasalvessm.meetingcontrol</groupId>
 	<artifactId>meetingcontrol</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>meetingcontrol</name>
 	<description>Simple application to support meeting room reservation</description>
 	<properties>

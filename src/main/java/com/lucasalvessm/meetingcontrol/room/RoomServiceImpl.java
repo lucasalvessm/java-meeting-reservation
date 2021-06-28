@@ -47,10 +47,7 @@ public class RoomServiceImpl implements RoomService {
             return false;
         }).collect(Collectors.toList());
 
-        availableRoomList.sort((o1, o2) -> {
-            //TODO: sorting rules
-            return 0;
-        });
+        availableRoomList.sort(new EfficiencyRoomComparator());
 
 
         return availableRoomList
